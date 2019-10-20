@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios-api-client-gen": "^1.0.4",
+    "axios-api-client-gen": "^1.0.5",
     "express": "^4.17.1"
   }
 }

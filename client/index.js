@@ -1,10 +1,10 @@
-// Wed Sep 25 2019 22:39:28 GMT+0200 (GMT+02:00)
+// Sun Oct 20 2019 15:56:58 GMT+0200 (GMT+02:00)
   
 import axios from 'axios';
 
 const API_BASE_URL = process.env.API_BASE_URL;
 
-export function get_users(...options) {
+export function get_users(options) {
   return axios({
     baseURL: API_BASE_URL,
     method: 'get',
@@ -13,7 +13,7 @@ export function get_users(...options) {
   });
 }
 
-export function delete_users(...options) {
+export function delete_users(options) {
   return axios({
     baseURL: API_BASE_URL,
     method: 'delete',
@@ -22,7 +22,7 @@ export function delete_users(...options) {
   });
 }
 
-export function get_users_by_uid(uid, ...options) {
+export function get_users_by_uid(uid, options) {
   return axios({
     baseURL: API_BASE_URL,
     method: 'get',
@@ -31,7 +31,7 @@ export function get_users_by_uid(uid, ...options) {
   });
 }
 
-export function get_users_by_uid_pets(uid, ...options) {
+export function get_users_by_uid_pets(uid, options) {
   return axios({
     baseURL: API_BASE_URL,
     method: 'get',
@@ -40,7 +40,7 @@ export function get_users_by_uid_pets(uid, ...options) {
   });
 }
 
-export function delete_users_by_uid_pets_by_pid(uid, pid, ...options) {
+export function delete_users_by_uid_pets_by_pid(uid, pid, options) {
   return axios({
     baseURL: API_BASE_URL,
     method: 'delete',
