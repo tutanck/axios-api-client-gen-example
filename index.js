@@ -40,7 +40,7 @@ const api = {
 
 const gen = require("axios-api-client-gen");
 
-gen("./client/index.js", api, true, "MY_API_URL");
+gen("./client/index.js", api, true, "MY_API_BASE_URL");
 
 /**
  * Module dependencies.
