@@ -1,15 +1,15 @@
 {
-  "name": "exampe",
-  "version": "1.0.2",
-  "description": "",
+  "name": "axios-api-client-gen-example",
+  "version": "1.0.0",
+  "description": "Full working example for axios-api-client-gen",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "tutanck",
   "license": "ISC",
   "dependencies": {
-    "axios-api-client-gen": "^1.0.6",
+    "axios-api-client-gen": "^1.1.1",
     "express": "^4.17.1"
   }
 }

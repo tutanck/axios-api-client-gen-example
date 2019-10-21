@@ -1,8 +1,8 @@
-// Sun Oct 20 2019 16:07:29 GMT+0200 (GMT+02:00)
+// Mon Oct 21 2019 02:57:26 GMT+0200 (GMT+02:00)
   
 import axios from 'axios';
 
-const API_BASE_URL = process.env.API_BASE_URL;
+const API_BASE_URL = process.env.MY_API_URL;
 
 export function get_users(options) {
   return axios({
