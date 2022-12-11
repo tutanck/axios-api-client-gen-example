@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "axios-api-client-gen": "^1.1.3",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
